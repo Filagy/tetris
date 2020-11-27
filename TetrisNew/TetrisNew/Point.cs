@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TetrisNew
 {
-    class Point
+    public class Point
     {
         public int x;
         public int y;
@@ -21,6 +21,6 @@ namespace TetrisNew
             y = b;
             z = sym;
         }
-        public Point() { }
+        //public Point() { }
     }
 }
